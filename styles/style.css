@@ -1,0 +1,84 @@
+
+:root {
+    --body-bg-color: #FAF7FD;
+    --purple: #BB99DD;
+  }
+
+  *{
+    color: var(--purple);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+
+  body{
+    background-color: var(--body-bg-color);
+    width: 100vw;
+    padding-top: 80px;
+    overflow: hidden;
+  }
+
+  
+  .container{
+    width: fit-content;
+    margin:auto;
+  }
+
+  .profile{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin-bottom: 25px;
+  }
+
+  .profile-image{
+    width: 140px;
+    height: 140px;
+    border-radius: 140px;
+    margin-bottom:10px;
+    padding: 5px;
+    border: 2px solid var(--purple);
+  }
+
+  .profile-name{
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.social-tree, .social-tree-icon{
+    list-style: none;
+    margin: 35px;
+}
+
+.social-tree li{
+    width: 240px;
+    height: 40px;
+    padding:5px 0px;
+    margin:20px;
+    text-align: center;
+    border: 1.5px solid var(--purple);
+    font-weight: 400;
+
+}
+
+.social-tree li:hover, .social-tree li:focus{
+  transform: scale(1.01);
+  box-shadow: 2px 1px 5px var(--purple);  
+}
+
+.social-tree-icon{
+    display: flex;
+    justify-content: center;
+    gap:35px;
+    
+}
+
+.social-tree-icon li{
+  font-size: 17px;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
