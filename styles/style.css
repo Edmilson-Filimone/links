@@ -1,8 +1,19 @@
 
 :root {
     --body-bg-color: #FAF7FD;
+    --purple: #003cff;
+  }
+
+/*
+
+
+:root {
+    --body-bg-color: #FAF7FD;
     --purple: #BB99DD;
   }
+
+
+*/
 
   *{
     color: var(--purple);
@@ -15,8 +26,8 @@
   body{
     background-color: var(--body-bg-color);
     width: 100vw;
-    padding-top: 80px;
-    overflow: hidden;
+    padding-top: 60px;
+    overflow: auto;
   }
 
   
@@ -29,7 +40,7 @@
     display: flex;
     flex-flow: column;
     align-items: center;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
   }
 
   .profile-image{
@@ -48,7 +59,7 @@
 
 .social-tree, .social-tree-icon{
     list-style: none;
-    margin: 35px;
+    margin: 10px;
 }
 
 .social-tree li{
@@ -75,7 +86,7 @@
 }
 
 .social-tree-icon li{
-  font-size: 17px;
+  font-size: 20px;
 }
 
 a{
